@@ -1,0 +1,9 @@
+# GRUB
+
+	/etc/default/grub --> general settings of grub
+	sudo update-grub  --> after the modifications
+
+Comandi grub:
+	vbeinfo --> supported resolution for grub
+	
+	set pager=1 --> set env to see the pages like "more-style"
