@@ -1,0 +1,5 @@
+make defconfig --> .config of default
+make menuconfig 
+make deb-pkg --> cmd to create a *.deb installation file (Debian & Ubuntu)
+sudo dpkg -i linux-*.deb --> install the new kernel
+sudo update-grub --> update the bootloader
