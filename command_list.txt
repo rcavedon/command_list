@@ -18,3 +18,8 @@ Comandi grub:
 	git remote add origin 'remote repository URL'
 	git remote -v
 	git push origin master
+
+To show the branch in the prompt:
+export PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;33m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\] '
+export PS1='\[\e];${debian_chroot:+($debian_chroot)}\W $(__git_ps1 ) \a\]'$PS1
+
