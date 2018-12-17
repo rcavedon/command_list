@@ -1,0 +1,16 @@
+----------------------
+USEFUL COMMAND FOR VIM
+-----------------------
+Good general reference:
+https://stackoverflow.com/questions/33676829/vim-configuration-for-linux-kernel-development
+
+Directory needed to configure vim
+~/.vim/bundle/
+~/.vim/autoload/
+
+Useful packages:
+cscopes
+ctags
+pathogen
+Nerdtree
+
